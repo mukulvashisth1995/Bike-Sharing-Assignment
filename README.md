@@ -1,4 +1,4 @@
-# Bike-Sharing-Assignment
+# Linear Regression - Bike Sharing Assignment
 
 This project has been submitted for evaluation on Linear Regression module for Upgrad. This involves study of different independent features and their relationship with the target variable for making predictions.
 
@@ -13,7 +13,7 @@ This project has been submitted for evaluation on Linear Regression module for U
 
 
 ## General Information
-- A US bike-sharing provider `BoomBikes` has a daily dataset on the rental bikes based on various environmental and seasonal settings. It wishes to use this data to understand the factors affecting the demand for these shared bikes in the American market and come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown due to corona pandemic comes to an end.
+- A US bike-sharing provider BoomBikes has a daily dataset on the rental bikes based on various environmental and seasonal settings. It wishes to use this data to understand the factors affecting the demand for these shared bikes in the American market and come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown due to corona pandemic comes to an end.
 - The company wants to know:
   - Which variables are significant in predicting the demand for shared bikes.
   - How well those variables describe the bike demands
@@ -21,14 +21,17 @@ This project has been submitted for evaluation on Linear Regression module for U
 
 
 ## Conclusions
-- Identified factors which can trigger a loan applicant which is likely to be charged off without compromising on good applications. A few mentioned below:
-- Borrowers having longer term for repayment showed high tendencies to default
-- Income verified people also present higher default rate, so some new measures need to be implemented while verifying to access the financial stability of borrower
-- Club assigns some grades to the borrowers. From their classification, a few groups with grades A, B, C came out highly profitable and others not so much
-- Sub-Grades are also introduced to have more insights before makinf decisions
-- Impact of owning their residence is analyzed. And people renting their houses are found more likely to default
-- The maximum loans apporved were between range 5k-15k. So the approval rate is high within this window
-- Employment length found to be deceiving as it really had no pattern with regards to repayment prediction.
+Studied all available features in indentifying their significance in deriving the usuage for bike users. Some of the conclusions made on data available
+- Year : seeing a huge growth in the no. of users in 2019 (2047742) when compared with 2018 (1243103) as visible from plot
+- Season : fall and summer account for maximum number of users availing services as compared with winter and spring (as snow and rain tend be difficult for bike rides in general)
+- Month: Aug, Jun, Sep, Aug attracts maximum people where the harsh winter days (Jan, Feb, Dec) see less people
+- Holiday : working days attract more people towards the service as compared to holidays
+- Weekday: one interesting insight here is that people using bike services on weekends are maximum. Implying that maximum people generally run household errands or fun activities on weekends and thus only explanation for these high numbers on weekends
+- Working day : on comparison w.r.t. 5 working days and 2 non-working days, for obvious reasons, people using for weekdays would come out to be higher
+- Weather situation : favourable weather attracts more people to use bike services as visible from the plot (clear skies has maximum people enjoying bike services as compared with cloudy and light rain or snow. Heavy rain and snow times have no user availing bike services as for obvious reasons
+- Temperature : Indicates a decent positive relation. Harsh winters seeing low users for the service and as temperature increases, it attracted more users to avail the bike services
+- Humidity : Indicated very low negative relation, implying not to be an influencing factor deriving more users to bike service provider
+- Windspeed : Presented significant negative relation, as high windspeeds not favourable for bike rides
 
 
 ## Technologies Used
@@ -41,7 +44,7 @@ This project has been submitted for evaluation on Linear Regression module for U
 
 
 ## Acknowledgements
-- This project was done as part of the Machine Learning and Artificial Intelligence by upGrad in asssociation with IIITB
+- This project was done as part of the Machine Learning and Artificial Intelligence Program by upGrad in asssociation with IIITB
 
 
 ## Contact 
